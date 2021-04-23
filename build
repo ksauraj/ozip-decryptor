@@ -14,6 +14,9 @@ echo DOWNLOAD PROCESS ENDED
 
 #DECRYPTING
 echo TRYING TO DECRYPT
+python --version
+sudo apt install python3-pip
+pip3 --version
 sudo -E apt-get -qq update
 sudo apt-get install python-pip
 sudo -H pip install --upgrade pip
