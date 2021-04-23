@@ -15,6 +15,7 @@ task:
     name: Buildbomt
     timeout_in: 119m
     container:
+      image: mrkhan007/aosp:latest
       cpu: 4
       memory: 12G
 
