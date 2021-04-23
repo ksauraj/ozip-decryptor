@@ -10,6 +10,14 @@ on:
 #      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
+
+task:
+    name: Buildbomt
+    timeout_in: 119m
+    container:
+      cpu: 4
+      memory: 12G
+
   watch:
     types: [started]
 
