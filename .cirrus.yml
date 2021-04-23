@@ -1,0 +1,12 @@
+env: # Environt variable to pass to all tasks
+    CIRRUS_CLONE_DEPTH: 1 # No need to clone with whole history
+    CIRRUS_WORKING_DIR: "/tmp/ci" # Where to clone repo
+task:
+    name: Buildbomt
+    timeout_in: 119m
+    container:
+      image: mrkhan007/aosp:latest
+      cpu: 4
+      memory: 8G
+    build_script:
+      - bash build
