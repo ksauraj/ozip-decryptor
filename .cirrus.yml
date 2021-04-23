@@ -18,9 +18,6 @@ task:
       cpu: 4
       memory: 12G
 
-  watch:
-    types: [started]
-
 env:
   FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip #edit link here
   FIRMWARE_NAME: RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip  #edit file name here
