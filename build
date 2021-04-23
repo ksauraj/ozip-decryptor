@@ -16,6 +16,8 @@ sudo apt-get install python-pip
 sudo -H pip install --upgrade pip
 sudo -H pip install setuptools wheel docopt pycryptodome
 wget https://raw.githubusercontent.com/techyminati/oppo_ozip_decrypt/master/ozipdecrypt.py
+ls
+pwd
 sudo python ozipdecrypt.py RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip
 zip -r RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.zip out #edit this filename 
 echo DECRYPTING PROCESS ENDED
