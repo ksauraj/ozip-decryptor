@@ -2,6 +2,9 @@
 #FIRMWARE_NAME: RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip  #edit file name here
 #TZ: Asia/Kolkata
 
+mkdir -p /tmp/rom
+cd /tmp/rom
+
 #DOWNLOADING
 echo TRYING TO DOWNLOAD OZIP
 sudo -E apt-get -qq update
@@ -15,6 +18,7 @@ sudo -E apt-get -qq update
 sudo apt-get install python-pip
 sudo -H pip install --upgrade pip
 sudo -H pip install setuptools wheel docopt pycryptodome
+sodu apt-get install wget
 wget https://raw.githubusercontent.com/techyminati/oppo_ozip_decrypt/master/ozipdecrypt.py
 ls
 pwd
