@@ -1,5 +1,5 @@
-#FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip #edit link here
-#FIRMWARE_NAME: RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip  #edit file name here
+#FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX2151EU_11_OTA_0880_all_z2qJYj6eZGF0.ozip #edit link here
+#FIRMWARE_NAME: RMX2151EU_11_OTA_0880_all_z2qJYj6eZGF0.ozip  #edit file name here
 #TZ: Asia/Kolkata
 
 mkdir -p /tmp/rom
@@ -26,7 +26,7 @@ wget https://raw.githubusercontent.com/techyminati/oppo_ozip_decrypt/master/ozip
 ls
 pwd
 sudo python ozipdecrypt.py RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.ozip
-zip -r RMX2151PU_11_OTA_0870_all_bcaVDKpnb64B.zip out #edit this filename 
+zip -r RMX2151EU_11_OTA_0880_all_z2qJYj6eZGF0.zip out #edit this filename 
 echo DECRYPTING PROCESS ENDED
 
 #UPLOADING
